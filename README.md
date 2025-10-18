@@ -368,8 +368,6 @@ Open source community for amazing libraries and tools
 
 📧 Email: 1896nitish@gmail.com
 
-<div align="center">
+
 "Don't just monitor — Predict."
 Built with ❤️ by Team Gryffindors during Raghu Hackathon 2025
-
-</div> ```
