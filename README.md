@@ -155,6 +155,12 @@ This project is open source under the MIT License.
 💬 Tagline
 “Don’t just monitor — Predict.”
 
+🏫 Team Members (Team Gryffindors) 
+Vattikuti Nitish 
+Shaik Harshad
+Polamarasetti Sravanthi
+Sesetty Hemanth
+
 📬 Contact
 🔗 GitHub: github.com/your-username/infrasight
 🏫 Hackathon: Raghu Hackathon 2025
