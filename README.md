@@ -55,7 +55,7 @@ Modern DevOps teams face thousands of system metrics but little *predictive insi
 | **Backend** | FastAPI (Python), Uvicorn |
 | **ML Engine** | scikit-learn (IsolationForest, RandomForest), pandas |
 | **Database** | SQLite / PostgreSQL |
-| **Agent** | Python + psutil |
+| **App** | Python + psutil |
 | **Integrations** | GitHub / Jenkins / AWS CloudWatch *(mocked for demo)* |
 | **Deployment** | Render / Vercel / Docker |
 
@@ -76,7 +76,7 @@ Modern DevOps teams face thousands of system metrics but little *predictive insi
 
 ## 🧠 Architecture
 
-Agent (Python + psutil)
+App (Python + psutil)
 ↓
 FastAPI Backend ←→ Database (SQLite / PostgreSQL)
 ↓
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 3️⃣ Run the Agent (Simulated Metrics)
 
-python agent/agent.py
+python app/app.py
 
 4️⃣ Start the Frontend
 
