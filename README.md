@@ -84,9 +84,6 @@ ML Engine (Anomaly + Prediction)
 ↓
 React Dashboard ←→ Alerts / Insights
 
-yaml
-Copy code
-
 *(Insert architecture diagram image here if you have one)*
 
 ---
@@ -98,18 +95,16 @@ Copy code
 git clone https://github.com/your-username/infrasight.git
 cd infrasight
 2️⃣ Backend Setup (FastAPI)
-bash
-Copy code
+
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 3️⃣ Run the Agent (Simulated Metrics)
-bash
-Copy code
+
 python agent/agent.py
+
 4️⃣ Start the Frontend
-bash
-Copy code
+
 cd frontend
 npm install
 npm start
@@ -123,27 +118,11 @@ RandomForestClassifier	Predict system failure probability
 spaCy (optional)	Extract root-cause keywords from logs
 
 🚨 Example Scenario
-Server-1 shows a CPU spike → InfraSight detects anomaly →
-ML model predicts 80 % failure probability →
-Alert triggered → Root-cause message:
-“Recent Jenkins deployment increased memory usage.”
+Server-1 shows a CPU spike → InfraSight detects anomaly → ML model predicts 80 % failure probability → Alert triggered →
+ Root-cause message: “Recent Jenkins deployment increased memory usage.”
 
 🧱 Project Structure
-css
-Copy code
-infrasight/
-├── agent/
-│   └── agent.py
-├── backend/
-│   └── main.py
-├── ml/
-│   ├── anomaly.py
-│   └── predict.py
-├── frontend/
-│   ├── src/
-│   └── package.json
-├── requirements.txt
-└── README.md
+---
 💼 Business Impact
 Stakeholder	Value Proposition
 🧠 DevOps Teams	Detect & prevent downtime early
@@ -162,13 +141,6 @@ Stakeholder	Value Proposition
 
 🗺️ Global infrastructure heatmap visualization
 
-🧠 Team
-Name	Role	Contribution
-Nitish Vattikuti	ML & Backend Lead	FastAPI APIs, anomaly + prediction models
-[Teammate 2]	Frontend Developer	React dashboard, charts, alert UI
-[Teammate 3]	Agent & Integration	Data ingestion, metrics collection
-[Teammate 4]	Presentation & Docs	Slides, demo, content
-
 🏁 Results
 ✅ Real-time dashboard with live metrics
 ✅ Anomaly detection working with > 90 % test accuracy
@@ -184,8 +156,7 @@ This project is open source under the MIT License.
 “Don’t just monitor — Predict.”
 
 📬 Contact
-📧 Email: yourname@example.com
 🔗 GitHub: github.com/your-username/infrasight
 🏫 Hackathon: Raghu Hackathon 2025
 
-<div align="center"> Made with ❤️ by the InfraSight Team </div> ```
+Made with ❤️ by the InfraSight Team
